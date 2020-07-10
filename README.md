@@ -64,15 +64,4 @@ In order for it to work you must have `iasl.exe` downloaded and placed inside th
 I have included my `DSDT.dsl` and `refs.txt` files but you can use your own if you so desire. 
 
 After running the script you will have the finished product inside the `out` folder. Simply copy the files in there and paste them into your EFI/OC folder. 
-
-Have fun! 
-
-
-
-
-
-
-
-
-
-
+Don't forgot to edit the `config.plist` file to change the ROM, MLB, Serial and UUID (for ROM/Serial/UUID generate using GenSMBIOS for MacBookPro12,1). Follow a tutorial on figuring out the ROM (its a mac address - edit with CorpNewt's ProperTree).

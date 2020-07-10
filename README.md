@@ -58,12 +58,12 @@ At this time I don't have time to make a guide about doing it so you can follow 
 Without having this done you will encounter kernel panics due to graphical issues. 
 
 ## Building 
-To create a usable EFI folder, you have to run the `build.ps1` script that I have included (run from the root directory!).
+To create a usable EFI/OC folder, you have to run the `build.ps1` script that I have included (run from the root directory!).
 In order for it to work you must have `iasl.exe` downloaded and placed inside the `Tools` directory. 
 
 I have included my `DSDT.dsl` and `refs.txt` files but you can use your own if you so desire. 
 
-After running the script you will have the finished product inside the `out` folder. Simply copy the files in there and paste them into your EFI folder. 
+After running the script you will have the finished product inside the `out` folder. Simply copy the files in there and paste them into your EFI/OC folder. 
 
 Have fun! 
 
